@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="browserName" value="Firefox"/>
+  <test name="Test(failed)">
+    <parameter name="browserName" value="Firefox"/>
+    <classes>
+      <class name="NITTestCases.SmokeTest">
+        <methods>
+          <include name="endTestCase"/>
+          <include name="startbrowser"/>
+          <include name="reportSetUp"/>
+          <include name="creatingQuestions"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- NITTestCases.SmokeTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
